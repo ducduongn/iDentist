@@ -21,7 +21,6 @@ public class ClinicEntity extends BaseEntity{
     @NotEmpty
     protected String status;
 
-
     public LocalDate getDate() {
         return date;
     }

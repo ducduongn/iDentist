@@ -3,6 +3,8 @@ package uet.springframework.identist.model;
 
 import javax.persistence.*;
 
+@Table
+@Entity(name = "visit")
 public class Visit extends ClinicEntity {
     private static final String CURRENT_STATUS = "current";
     private static final String COMPLETED_STATUS = "completed";
